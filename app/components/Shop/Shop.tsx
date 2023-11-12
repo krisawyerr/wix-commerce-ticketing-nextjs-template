@@ -5,20 +5,30 @@ import { WixMediaImage } from '@app/components/Image/WixMediaImage';
 export function Shop({ items }: { items: products.Product[] }) {
   return (
     <div className="mx-auto">
+
+
+
+
+
+
       <div
-        className="bg-black text-custom-1 text-center py-4 sm:py-10 sm:py-20 h-[450px] sm:h-[520px]"
+        className="shirtsBanner border-2 border-black"
         data-testid={testIds.SHOP_PAGE.HEADER}
       >
-        <h1 className="uppercase text-3xl sm:text-6xl">Merch</h1>
-        <p className="text-sm sm:text-base mx-auto px-8 sm:max-w-[50%] my-10">
-          I’m a paragraph. I’m a great space to write about what makes the
-          products special and explain how customers can benefit from these
-          items.
+        <h1>SHIRTS</h1>
+        <p>
+        These shirts are not just a wardrobe staple. They're a statement of sophistication and quality. With a timeless design, versatile enough for any occasion, these shirts effortlessly elevate your ensemble, making them a must-have for those who appreciate the fusion of comfort and style.
         </p>
       </div>
+
+
+
+
+
+
       {items.length ? (
         <div
-          className="full-w overflow-hidden mx-auto text-center mt-[-200px] sm:mt-[-130px] px-10"
+          className="full-w overflow-hidden mx-auto text-center px-10"
           data-testid={testIds.PRODUCT_LIST.CONTAINER}
         >
           <ul className="grid sm:grid-cols-3 gap-8 grid-flow-row">

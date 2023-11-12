@@ -21,7 +21,7 @@ export const CartBag = () => {
       className="flex relative"
       aria-label={`Cart items: ${itemsCount}`}
     >
-      <svg
+      {/* <svg
         className="w-8 h-8"
         fill="none"
         stroke="currentColor"
@@ -34,9 +34,9 @@ export const CartBag = () => {
           strokeWidth="2"
           d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z"
         ></path>
-      </svg>
+      </svg> */}
       {itemsCount! > 0 && (
-        <span className="font-bold text-xs  absolute top-[13px] right-[15px]">
+        <span className="font-bold text-m border-black border-2 w-10 h-10 pt-[7px] rounded-full">
           {itemsCount}
         </span>
       )}

@@ -71,16 +71,16 @@ export function NavBar() {
       >
         <div className="relative flex flex-col-reverse sm:flex-col gap-2">
           <div className="h-[180px] w-[140px] overflow-hidden sm:h-auto sm:w-auto mx-auto">
-            <Image
+            {/* <Image
               className="mx-auto z-10"
               src="https://static.wixstatic.com/media/503ea4_cb7ebc8a601749f098164d92ec7aa441~mv2.jpg/v1/fill/w_480,h_622,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/503ea4_cb7ebc8a601749f098164d92ec7aa441~mv2.jpg"
               width={240}
               height={0}
               alt="Talisa Kidd"
-            />
+            /> */}
           </div>
-          <h2 className="text-center text-2xl sm:text-[120px] z-20 sm:mt-[-150px]">
-            TALI$A KIDD
+          <h2 className="text-center text-2xl sm:text-[120px] z-20 sm:mt-[200px]">
+            SHIRT STORE #1030
           </h2>
         </div>
         <ul className="flex flex-col items-center gap-4 justify-end mt-4 sm:mt-[140px]">
@@ -100,7 +100,7 @@ export function NavBar() {
             </li>
           ))}
           <div className="flex text-white gap-4 mt-4">
-            <svg
+            {/* <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 320 512"
               className="w-5 h-5"
@@ -149,7 +149,7 @@ export function NavBar() {
                 fill="currentColor"
                 d="M448,209.91a210.06,210.06,0,0,1-122.77-39.25V349.38A162.55,162.55,0,1,1,185,188.31V278.2a74.62,74.62,0,1,0,52.23,71.18V0l88,0a121.18,121.18,0,0,0,1.86,22.17h0A122.18,122.18,0,0,0,381,102.39a121.43,121.43,0,0,0,67,20.14Z"
               />
-            </svg>
+            </svg> */}
           </div>
           {navbarSecondrayItems.map(({ ref, label }) => (
             <li key={ref} className="relative">

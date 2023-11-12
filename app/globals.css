@@ -108,3 +108,67 @@ input::-webkit-inner-spin-button {
 input[type='number'] {
   -moz-appearance: textfield;
 }
+
+.shirtsBanner {
+  padding: 2rem 0rem;
+  text-align: center;
+}
+.shirtsBanner h1 {
+  text-transform: uppercase;
+  font-size: 1.875rem/* 30px */;
+  line-height: 2.25rem/* 36px */;
+}
+.shirtsBanner p {
+  width: 900px;
+  font-size: 0.875rem/* 14px */;
+  line-height: 1.25rem/* 20px */;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 2rem/* 32px */;
+  padding-right: 2rem/* 32px */;
+  margin-top: 2.5rem/* 40px */;
+  margin-bottom: 2.5rem/* 40px */;
+}
+
+@media screen and (max-width: 1280px) {
+  .shirtsBanner p {
+    width: 700px;
+  }
+}
+@media screen and (max-width: 875px) {
+  .shirtsBanner p {
+    width: 500px;
+  }
+}
+@media screen and (max-width: 540px) {
+  .shirtsBanner p {
+    width: auto;
+  }
+}
+
+
+@media screen and (max-width: 466px) {
+  .navBanner {
+    display: flex;
+    flex-direction: column;
+  }
+  .navBanner section {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .fullNav {
+    height: 120px;
+  }
+
+}
+
+@media screen and (max-width: 316px) {
+  .title {
+    text-align: center;
+  }
+  .fullNav {
+    height: 150px;
+  }
+
+}
